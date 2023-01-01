@@ -9,9 +9,16 @@ import SwiftUI
 
 @main
 struct StockWatchApp: App {
+    
+    @StateObject var appVM = AppViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            MainListView()
+            NavigationStack
+            {
+                MainListView()
+            }
+            .environmentObject(appVM)
         }
     }
 }

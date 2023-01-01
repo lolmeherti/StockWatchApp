@@ -9,7 +9,6 @@ import SwiftUI
 
 struct TickerListRowView: View
 {
-    
     let data: TickerListRowData
     
     var body: some View
@@ -44,6 +43,7 @@ struct TickerListRowView: View
                 VStack(alignment: .trailing, spacing: 4)
                 {
                     Text(price)
+                        .font(.headline.bold())
                     priceChangeView(value: change)
                 }
                 .font(.subheadline.bold())

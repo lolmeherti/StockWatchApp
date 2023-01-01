@@ -9,12 +9,11 @@ import Foundation
 
 typealias PriceChange = (price: String, change: String)
 
-struct TickerListRowData
-{
-    enum RowType
-    {
+struct TickerListRowData {
+    
+    enum RowType {
         case main
-        case search(isSaved: Bool, onButtonTapped: () ->())
+        case search(isSaved: Bool, onButtonTapped: () -> ())
     }
     
     let symbol: String

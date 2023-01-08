@@ -26,3 +26,10 @@ Tapping or sliding on the chart will clearly show the exact value of the ticker 
 Removing tickers from the watchlist is done by sliding a selected ticker slightly towards the left and tappin the delete button when its revealed
 
 <img src="https://github.com/lolmeherti/StockWatchApp/blob/main/gifs/remove_tickers.gif" height="600" width="300">
+
+
+### Dependencies
+
+This app uses the swift package <a href="https://github.com/lolmeherti/StockWatchAPI" target="_blank">StockWatchAPI</a>, one of my repositories on this account and implements it as a dependency
+
+The <a href="https://github.com/lolmeherti/StockWatchAPI" target="_blank">StockWatchAPI</a> uses the official Yahoo!Finance API to send and receive requests
